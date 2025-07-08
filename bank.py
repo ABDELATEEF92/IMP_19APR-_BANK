@@ -1,6 +1,6 @@
 from User import user
 class Bank(User):
-    
+    #ABDELATEEF
     def deposit(self, amount):
         self.balance += amount
         print(f"The new balance is: {self.balance}")
